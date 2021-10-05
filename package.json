@@ -1,0 +1,16 @@
+{
+  "name": "portfolio-8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "asciiMorph.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "swiper": "^7.0.8",
+    "three": "^0.133.0",
+    "typed.js": "^2.0.12"
+  }
+}

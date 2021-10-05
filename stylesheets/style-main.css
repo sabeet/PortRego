@@ -1,0 +1,93 @@
+body {
+    background: #383838;
+  }
+
+.container {
+    display: grid;
+    grid-template-columns: 0.5fr 2.2fr 0.5fr;
+    grid-template-rows: 0.2fr 2.4fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "logo navbar feature"
+      "left-margin center right-margin";
+  }
+  
+  .center { grid-area: center;
+            color: #fff;
+            font-family: monospace;
+            display: grid;
+            place-items: center;
+            
+    }
+  
+  .navbar { grid-area: navbar;
+            color: #fff;
+            font-family: monospace;
+    }
+  
+  .logo {   grid-area: logo;
+            color: #fff;
+            font-family: monospace;
+            position: absolute;
+            line-height: 2-px;
+            font-size: 20px;
+    }
+
+    @media screen and (max-width: 376px){
+        .logo{
+            color: #fff;
+            font-family: monospace;
+            position: absolute;
+            line-height: .9vh;
+            font-size: .7vh;
+        }
+    }
+  
+  .feature { grid-area: feature; }
+  
+  .left-margin { grid-area: left-margin; }
+  
+  .right-margin { grid-area: right-margin; }
+
+  .container-2{
+    font-family: monospace;
+    color: #fff ;
+    display: grid;
+    place-items: center
+  }
+
+  .typed{
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    font-family: monospace;
+    z-index: 2;
+  }
+
+  .pulsate {
+    font-style: italic;
+    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.5;
+}
+@-webkit-keyframes pulsate {
+    0% { 
+        opacity: 0.5;
+    }
+    50% { 
+        color: red;
+        opacity: 1.0;
+    }
+    100% { 
+        opacity: 0.5;
+    }
+}
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  
+  

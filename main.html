@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabeet.me</title>
+    <link rel="stylesheet" href="/stylesheets/style-main.css">
+</head>
+    <body>
+        
+        <div class="container">
+
+            <div class="logo">
+            █▀ ▄▀█ █▄▄ █▀▀ █▀▀ ▀█▀   █▀▄▀█ █▀▀<br>
+            ▄█ █▀█ █▄█ ██▄ ██▄  █  ▄ █░▀░█ ██▄
+            </div>
+            <div class="navbar">
+                
+            </div>
+
+            <div class="feature"></div>
+
+            <div class="left-margin"></div>
+            <div class="center">
+                <!--Insert ThreeJS stuff here-->
+                <div class="three"></div>
+                <div class="typed-div">
+                    <h4 class="typed"></h4>
+                </div>
+
+
+            </div>
+            <div class="right-margin"></div>
+
+        </div>
+        <div class="container-2">
+            <div class="row">
+                <a href="about.html">/About</a> &ensp; <a href="contact.html">/Contact</a> &ensp; <a href="portfolio.html">/Portfolio</a>
+            </div>
+        </div>
+        <script type="module" src="/node_modules/three/src/Three.js"></script>
+        <script type="module" src="script.js"></script>
+        <script src="/node_modules/typed.js/lib/typed.js"></script>
+        <script type="text/javascript" >
+            var typed = new Typed(".typed", {
+              strings: [
+                  "Hi! My name is Sabeet",
+                  "I'm a Software Developer",
+                  "Welcome to my website",
+                  "Thanks for visiting",
+                  "And...",
+                  "Keep your heart <span class='pulsate'>beeting</span>"
+
+                    ],
+              typeSpeed: 50,
+              backSpeed: 50,
+              cursorChar:'█',
+              loop: false
+            });
+        </script>
+    </body>
+</html>

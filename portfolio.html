@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio@Sabeet.me</title>
+    <link rel="stylesheet" href="/stylesheets/style-template.css">
+    <link rel="stylesheet" href="/node_modules/swiper/swiper-bundle.css">
+</head>
+    <body>
+        <div class="container">
+            <div class="logo">
+                <div class="logo-text">
+                    <a href="main.html">
+                        █▀ ▄▀█ █▄▄ █▀▀ █▀▀ ▀█▀   █▀▄▀█ █▀▀<br>
+                        ▄█ █▀█ █▄█ ██▄ ██▄  █  ▄ █░▀░█ ██▄
+                    </a>
+                </div>
+            </div>
+            <div class="navbar">
+                <div class="navbar-text">
+                    <a href="about.html">/About</a> &ensp; <a href="contact.html">/Contact</a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="typed">
+                    <h1>Portfolio</h1>
+
+                    <!-- Slider main container -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide" style="background-image:url(/images/slide-1.png)">
+                            <a class="color-orange" href="http://qcprofstat.tk">QCProfStat</a> 
+                        </div>
+                          <div class="swiper-slide" style="background-image:url(/images/slide-2.png)">
+                            <a class="color-orange" href="http://sabeet.me/unity/unityGame.html">Ball Runner in Unity</a> 
+                        </div>
+                          <div class="swiper-slide" style="background-image:url(/images/slide-3.png)">
+                            <a class="color-orange" href="http://sabeet.me/hit.html">Hit Me</a>
+                        </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                      </div>
+                      <br>
+                      A slide show of my projects
+                     <br>
+                     <br>
+                     You can find more of my projects on <a href="https://www.github.com/sabeet"><u>Github</u></a> 
+                </div>
+            </div>
+            <div class="left-margin"></div>
+          </div>
+
+          <script src="/node_modules/swiper/swiper-bundle.js"></script>
+          <script>
+              var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          type: "progressbar",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+          </script>
+
+    </body>
+</html>
