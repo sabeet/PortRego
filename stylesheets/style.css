@@ -93,3 +93,19 @@ body {
       opacity:1;
     }
   }
+
+  @media screen and (max-width: 376px){
+    .morph-section{
+      width: .8vh;
+      height: .8vh;
+    }
+
+  }
+
+  @media screen and (max-width: 480px){
+    .morph-section{
+      width: .8vh;
+      height: .8vh;
+    }
+
+  }

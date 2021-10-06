@@ -43,6 +43,16 @@ body {
             font-size: .7vh;
         }
     }
+
+    @media screen and (max-width: 480px){
+      .logo{
+          color: #fff;
+          font-family: monospace;
+          position: absolute;
+          line-height: 1.3vh;
+          font-size: .9vh;
+      }
+  }
   
   .feature { grid-area: feature; }
   

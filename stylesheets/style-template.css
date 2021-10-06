@@ -145,6 +145,30 @@
     }
 }
 
+@media screen and (max-width: 480px){
+  .logo-text{
+      margin: 0px;
+      padding: 0px;
+      color: #fff;
+      font-family: monospace;
+      position: absolute;
+      line-height: 1.3vh;
+      font-size: .9vh;
+  }
+
+  .navbar-text{
+    font-family: monospace;
+    columns: #fff;
+    float: right;
+    font-size: 1.4vh;
+  }
+
+  .swiper {
+    width: 300px;
+    height: 150px;
+  }
+}
+
 p {
   animation: fadeIn ease 10s;
   -webkit-animation: fadeIn ease 10s;
